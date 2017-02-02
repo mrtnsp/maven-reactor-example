@@ -10,6 +10,12 @@
   <name>Maven Reactor Example</name>
   <description>this is a short example for a maven multi module project</description>
 
+  <modules>
+    <module>entities</module>
+    <module>services</module>
+    <module>services-default-impl</module>
+  </modules>
+
   <properties>
     <jdk.version>1.8</jdk.version>
     <maven.compiler.target>${jdk.version}</maven.compiler.target>
@@ -320,6 +326,5 @@
       </plugin>
     </plugins>
   </reporting>
-
 
 </project>
